@@ -1,0 +1,54 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    color: white;
+}
+nav{
+    background-color: green;
+    height: 6vh;
+    width: 100%;
+}
+/* .posizionamento{
+ 
+} */
+.logo{
+    margin-top: 9.5px;
+    margin-left: 11px;
+    float: left;
+    background-color: blue;
+    height: 4vh;
+    width: 12%; 
+}
+.lista-s{ 
+    margin-top: 19px;
+    margin-left: 11px ;
+    float: left;
+    background-color: blue;
+}
+ul{
+    list-style: none;
+}
+li{ 
+    display: inline-block;
+    margin-right: 3em;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.lista-d{ 
+    margin-top: 19px;
+    margin-left: 700px ;
+    float: left;
+    background-color: blue;
+}
+.login{
+    margin-right: 48px;
+    margin-top: 19px;
+    float: right;
+    background-color: blue;
+}
