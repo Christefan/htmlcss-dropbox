@@ -14,7 +14,11 @@ nav{
 }
 /* .posizionamento{
  
+    
 } */
+img{
+    width: 100%;
+}
 .logo{
     margin-top: 9.5px;
     margin-left: 11px;
@@ -22,6 +26,11 @@ nav{
     background-color: blue;
     height: 4vh;
     width: 12%; 
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .lista-s{ 
     margin-top: 19px;
@@ -51,4 +60,91 @@ a{
     margin-top: 19px;
     float: right;
     background-color: blue;
+}
+main{
+    margin: 0 auto;
+    width: 100%;
+    height: 1900vh;
+    background-color: black;
+}
+.contenitore-1{
+    background-color: blueviolet;
+    height: 80vh;
+    width: 100%;
+    margin-right: 90px;
+    position: relative;
+}
+.contenitore-1 div:first-child{
+    text-align: left;
+    font-size: 52px;
+    float: left;
+    margin-left: 150px;
+    margin-top:80px;
+    width: 82%;
+}
+.contenitore-1 div:nth-child(2){
+    margin-top: 43px;
+    float: left;
+    margin-left: 150px;
+    width: 24.9%;
+    font-size: 21.5px;
+}
+.contenitore-1 div:nth-child(2) button{
+    margin-top: 35px;
+    width: 58%;
+    height: 4vh;
+    background-color: burlywood;
+    color: white;
+    font-size: 18px;
+}
+.contenitore-1 div:nth-child(2),p{
+  margin-top: 20px;
+}
+.contenitore-1 div:nth-child(2) span{
+    font-size: 18.5px;
+}
+.contenitore-1 div:nth-child(3) img{
+    margin-top: 38px;
+    float: right;
+    /* background-color: chocolate; */
+    height: 51vh;
+    width: 48%;
+    margin-right: 255px;
+    position: relative;
+    z-index: 1;
+}
+.contenitore-2{
+    background-color: yellow;
+    height: 130vh;
+    position: relative;
+}
+
+.tabella {
+    width: 100%;
+    margin: 3em auto;
+
+    /* test */
+    background-color: rebeccapurple;
+    height: 1000px;
+}
+.contenitore-3{
+    background-color: rgb(70, 70, 37);
+    height: 130vh;
+}
+
+.contenitore-3 div{
+    width: 35%;
+    height: 35%;
+    background-color: seagreen;
+    margin-right: 30px;
+    float: left;
+    transform: translate(50%,50%);
+}
+.contenitore-4{
+    background-color: rgb(19, 55, 216);
+    height: 130vh;
+}
+.contenitore-5{
+    background-color: rgb(196, 35, 147);
+    height: 130vh;
 }
